@@ -7,6 +7,9 @@ install:
 - sudo dpkg -i hugo*.deb
 script:
 - hugo
+cache:
+  directories:
+  - node_modules
 deploy:
   local-dir: public
   repo: EclipseFdn/openmobility.eclipse.org
