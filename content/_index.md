@@ -10,4 +10,13 @@ date: 2019-03-14T15:50:25-04:00
 hide_sidebar : true
 hide_page_title: true
 hide_breadcrumb: true
+layout: "single"
 ---
+
+{{< homepage/members >}}
+
+{{< homepage/vision >}}
+
+{{< homepage/news >}}
+  {{< newsroom/news id="news-template-id" class="news-list" includeList="true" publishTarget="openmobility" >}}
+{{</ homepage/news>}}
