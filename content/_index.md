@@ -18,5 +18,5 @@ layout: "single"
 {{< homepage/vision >}}
 
 {{< homepage/news >}}
-  {{< newsroom/news id="news-template-id" class="news-list" includeList="true" publishTarget="openmobility" >}}
+  {{< newsroom/events id="events-template-id" templateId="custom-events-template" class="news-list" includeList="true" publishTarget="openmobility" templatePath="/js/templates/events.mustache" count="2">}}
 {{</ homepage/news>}}
